@@ -1,6 +1,9 @@
 # coding: utf-8
 
 class Book
+
+    attr_accessor :price
+
     def initialize(name, cod_id, pages, price)
         @name = name
         @cod_id = cod_id
