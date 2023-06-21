@@ -29,5 +29,5 @@ book_python = Book.new("Linguagem Python", 0101, 300, 86.00, :python)
 hash = {"1234" => book_ruby,
         "0101" => book_ruby}
 
-#puts hash["1234"]
+puts hash["1234"]
 
